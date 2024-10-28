@@ -1,38 +1,60 @@
-#header{
-    height: 170px;
+body{
+    background-color: rgb(100, 100, 100);
 }
-  
 div{
     margin: 10px;
+    border: 1px solid black;
     font-size: 20px;
     height: 80px;
-    border: 1px solid rgb(0, 0, 0);
-    }
-
-    #main{
-        margin-left: 170px;
-        margin-right: 170px;
-    }
-#leftSidebar{
-    float: left;
-    height: 650px;
-    width: 150px;
-    background-image: url(https://www.google.com/imgres?q=car%20ads&imgurl=https%3A%2F%2Fd1csarkz8obe9u.cloudfront.net%2Fposterpreviews%2Fluxury-car-ads-design-template-e2f77abafcc26a02451ab8baabb8a32f_screen.jpg%3Fts%3D1698825048&imgrefurl=https%3A%2F%2Fwww.postermywall.com%2Findex.php%2Fart%2Ftemplate%2Fe2f77abafcc26a02451ab8baabb8a32f%2Fluxury-car-ads-design-template&docid=EzoBtyMLdY5FCM&tbnid=5qxfxZ1AF40ypM&vet=12ahUKEwjirITy07CJAxUe0wIHHX7sNYcQM3oECGsQAA..i&w=691&h=691&hcb=2&ved=2ahUKEwjirITy07CJAxUe0wIHHX7sNYcQM3oECGsQAA);
 }
-#rightSidebar{
+#header{
+    background-color: rgb(201, 201, 201);
+    height: 170px;
+}
+#leftSidebar{
+    margin-top: 150px;
+    background-color: rgb(201, 201, 201);
     float: right;
     width: 150px;
-    height: 650px;
+    height: 680px;
+}
+#rightSidebar{
+    margin-top: 150px;
+    background-color: rgb(201, 201, 201);
+    float: left;
+    width: 150px;
+    height: 680px;
 }
 #main{
-    height: 700px;
-    margin-left: 170px;
-    margin-left: 170px;
+    background-color: rgb(201, 201, 201);
+    height:1000px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 150px;
 }
-
 #footer{
-   background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=c062f980d6&attid=0.2&permmsgid=msg-f:1814138489137938282&th=192d1d581a6e3f6a&view=att&disp=safe&realattid=DB88CD4E-0A3D-4196-8050-D8E004CC4491);
-   background-position: bottom;
-   height: 300px;
-   margin-top: 300px;
+    background-color: rgb(201, 201, 201);
+}
+h1{
+    text-size-adjust: 100;
+    text-decoration-color: rgb(255, 0, 0);
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(201, 201, 201);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color:rgb(255, 0, 0);
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(51, 51, 51);
+}
+.navbar li{
+    float: left;
 }
